@@ -1,0 +1,41 @@
+#title-block-header .title {
+  font-size: 2.5rem;
+}
+
+#quarto-document-content {
+  font-size: 1.1rem;
+}
+
+table {
+  margin: 2em auto !important;
+  width: 80% !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+pre {
+  border-radius: 8px;
+  border: 1px solid #e1e4e8;
+}
+
+#TOC a.nav-link,
+#toc-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+#toc-title {
+  margin-bottom: 0.6rem;
+  font-weight: bold;
+}
+
+#TOC ul,
+#TOC li {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#TOC a.nav-link {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  margin-bottom: 0;
+}

@@ -1,0 +1,66 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!Resources/"
+
+website:
+  title: "Arthur Trein"
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: cv.qmd
+        text: CV
+      - href: research.qmd
+        text: Research
+      # - href: Resources/resources.qmd
+      #   text: Resources
+    right:
+      - href: https://orcid.org/0000-0003-4346-5636
+        text: '<span class="orcid-icon" role="img" aria-label="ORCID"></span>'
+      - href: https://lattes.cnpq.br/5477806158521328
+        text: '<span class="lattes-icon" role="img" aria-label="Lattes CV"></span>'
+      - href: https://www.researchgate.net/profile/Arthur-Trein
+        text: '<span class="researchgate-icon" role="img" aria-label="ResearchGate"></span>'
+      - href: 'https://zenodo.org/search?q=metadata.creators.person_or_org.identifiers.identifier%3A%220000-0003-4346-5636%22'
+        text: '<span class="zenodo-icon" role="img" aria-label="Zenodo"></span>'
+      - href: mailto:arthur.dexheimer@gmail.com
+        icon: envelope-fill
+        aria-label: Email
+
+format:
+  html:
+    theme:
+      - United
+      - brand
+    css: css/styles.css
+    toc: true
+    title-block-banner-color: white
+    include-after-body:
+      text: |
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          if (window.quartoToggleHeadroom) {
+            window.quartoToggleHeadroom();
+          }
+        });
+        </script>
+        <script>
+        (function () {
+          function alignTitle() {
+            var content = document.getElementById("quarto-document-content");
+            if (!content) return;
+            var left = content.getBoundingClientRect().left + window.scrollX +
+              parseFloat(getComputedStyle(content).paddingLeft);
+            document.documentElement.style.setProperty("--content-left", left + "px");
+          }
+          alignTitle();
+          window.addEventListener("resize", alignTitle);
+          window.addEventListener("load", alignTitle);
+          if (document.fonts && document.fonts.ready) {
+            document.fonts.ready.then(alignTitle);
+          }
+        })();
+        </script>
+

@@ -1,0 +1,21 @@
+---
+title: "Curriculum Vitae"
+title-block-banner: "#C1504A"
+toc: false
+resources:
+  - cv.pdf
+css:
+  - css/styles.css
+  - css/narrow-page-style.css
+  - css/cv-style.css
+---
+
+::: {.cv-header}
+<span class="cv-updated">CV last updated: October 14, 2026</span>
+
+<a href="cv.pdf" class="btn btn-primary btn-sm cv-download" download><i class="bi bi-file-earmark-pdf"></i> Download current CV</a>
+:::
+
+<iframe src="cv.pdf#view=FitH" class="cv-pdf" title="Curriculum Vitae of Arthur Dexheimer Trein"></iframe>
+
+<p class="cv-fallback">If the CV doesn't display above, <a href="cv.pdf">open the PDF directly</a>.</p>

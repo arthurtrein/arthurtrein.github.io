@@ -1,0 +1,40 @@
+#quarto-document-content .quarto-listing-default div.quarto-post {
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+#quarto-document-content div.quarto-post .metadata {
+  display: none;
+}
+
+#quarto-document-content div.quarto-post .thumbnail img {
+  margin-top: 0;
+  object-fit: contain;
+}
+
+#quarto-document-content div.quarto-post .body h3.listing-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+#quarto-document-content div.quarto-post .body h3.listing-title a {
+  font-weight: inherit;
+}
+
+#quarto-document-content div.quarto-post .listing-description {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+#quarto-document-content div.quarto-post .listing-description p {
+  margin-bottom: 0;
+}
+
+#quarto-document-content div.quarto-post .listing-categories .listing-category {
+  font-size: 0.68rem;
+}

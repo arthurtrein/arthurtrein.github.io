@@ -1,0 +1,108 @@
+---
+title: "Research and publications"
+title-block-banner: "#5C8A72"
+toc: false
+css:
+  - css/styles.css
+  - css/narrow-page-style.css
+  - css/research-style.css
+resources:
+  - js/research.js
+---
+
+::: {.research-intro}
+# Overview 
+
+My research focuses on the development of second language (L2) speech. I am especially interested in how new phonetic-phonological patterns emerge and change over time, and in the role that variability and individual differences play in this process. 
+
+To capture fine-grained changes in speech, I use multi-wave longitudinal designs, often combined with periods of L2 instruction. In my MA thesis, I am exploring Bayesian Generalized Additive Mixed Models (GAMMs) as a way to model changes in vowel production within multilingual systems.
+
+Beyond production, I also investigate how listeners rate non-native speech for accentedness and comprehensibility, and how learners' attitudes towards varieties of English shape their pronunciation learning.
+:::
+
+:::: {.research-layout}
+
+::: {.research-list}
+# Journal articles
+
+## Brazilian learners’ development of English-L2 pre-fortis clipping patterns: a process-oriented study through Complex Dynamic Systems Theory
+
+**Arthur Trein**, Ubiratã Alves, Felipe Kupske and Luana Gauer · Under review
+
+[<i class="bi bi-file-earmark-pdf"></i> Pre-print](https://doi.org/10.31234/osf.io/wqhdn_v3) &nbsp;
+[<span class="osf-icon"></span> Data](https://doi.org/10.17605/OSF.IO/VH3W9) &nbsp;
+<button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#abstract-trein-alves-kupske-gauer-inpress" aria-expanded="false" aria-controls="abstract-trein-alves-kupske-gauer-inpress">Abstract</button>
+
+
+::: {#abstract-trein-alves-kupske-gauer-inpress .collapse}
+ Complex Dynamic Systems Theory (CDST) has proven an important epistemological framework for analyzing non-native language phonetic-phonological development. This conceptual framework entails specific methodological considerations, especially when it comes to experimental designs in which developmental trajectories are investigated over time, in process oriented studies. Drawing on a complex-dynamic view of language in association with the Speech Learning Model, the present study aims to investigate the development of the pre-fortis clipping pattern of vowels preceding plosive consonants in English by Brazilian learners. Three participants were tracked longitudinally in 12 data collection points over 13 weeks. Between the first and second data collection point, participants received different types of linguistic input: perceptual training, perceptual training combined with explicit pronunciation instruction, and no pedagogical intervention. Participants’ productions of the target form were acoustically analyzed and tested through Peak Analyses with Monte Carlo Simulations and Change Point Analyses. Results indicate different individual patterns of variability and change, potentially linked to the distinct pedagogical treatments present in the study. The findings underscore the relevance of process-oriented studies for analyzing non-native language phonetic-phonological development, as well as the conceptual compatibility of CDST with the Speech Learning Model. They also highlight the affordances associated with the complementary employment of the two data analysis methods featured in the study.
+:::
+
+## Variability in the development of phonetic-phonological patterns by L2 learners: analyzing length gains in vowels preceding final voiced plosives in L2 English {data-year="2025"}
+
+Ubiratã Alves, **Arthur Trein** and Luana Gauer · Letras de Hoje
+
+[<i class="bi bi-globe"></i> Access](https://revistaseletronicas.pucrs.br/fale/article/view/48439) &nbsp;
+<button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#abstract-alves-trein-gauer-2025" aria-expanded="false" aria-controls="abstract-alves-trein-gauer-2025">Abstract</button>
+
+::: {#abstract-alves-trein-gauer-2025 .collapse}
+In Complex Dynamic Systems Theory (CDST), intra-individual variability plays a functional role in the development of new patterns and skills in a Second Language (L2), serving as an indicator of developmental progress. In a recent study, Verspoor and de Bot (2022) argue that higher levels of variability are  associated with  greater  developmental  gains  during  periods  of  intensive earning. The authors propose the use of two measures  –  the  Coefficient  of Variation  (CoV)  and  the  Standard Deviation of Differences (SDd) – to quantify and compare variability across datasets involving multiple learners. The present exploratory study employs these measures  to  assess  developmental  gains  related  to a  phonetic-phonological  phenomenon  in  English  as an L2. Drawing on longitudinal data from 11 Brazilian learners, we  aim  to  investigate whether variability (operationalized as CoV and SDd) correlate with vowel length  gains  preceding  the voiced  plosives  /b  d  g/ in syllable-final position in L2 English. In 12 recording sessions,  participants  produced  monosyllabic words ending  in voiced  stop  consonants.  Between  the  first and second data collection points, learners – divided into three groups – received different pedagogical tre-atments: perceptual training only, perceptual training combined with explicit pronunciation instruction, or no training/instruction.  Following  the  acoustic  analysis, we  calculated  (a) vowel  length  gains  for  each  stop consonant, (b) the CoV, and (c) the SDd of vowel length for each participant at each datapoint. Correlation analyses indicate that variability is positively associated with  the  increase  in vowel  length  over  the  course  of the  study. These  findings  highlight  the  relevance  of intra-individual variability in the development of new pronunciation patterns in the L2, especially in periods of accelerated learning.
+:::
+
+# Chapters
+
+## Development of speech fluency in an additional language: Analysis of breakdown rates in the speech of an Argentine learner of Brazilian Portuguese {data-year="2026"}
+
+Ubiratã Alves, Pollianna Milan, **Arthur Trein**, Cíntia Raquel de Moraes, Felipe Vieira and Laryssa Alves · In book _Cuestiones del lenguaje en contextos académicos y profesionales: enseñanza y traducción_
+
+[<span class="bi bi-globe"></span> Access](https://humadoc.mdp.edu.ar/s/repositorio-institucional-humadoc/item/3389) &nbsp;
+<button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#abstract-alves-milan-trein-moraes-vieira-alves-2026" aria-expanded="false" aria-controls="abstract-alves-milan-trein-moraes-vieira-alves-2026">Abstract</button>
+
+::: {#abstract-alves-milan-trein-moraes-vieira-alves-2026 .collapse}
+This study investigates the longitudinal development of breakdown fluency in the speech of an advanced Argentine learner of Brazilian Portuguese (L3). The analysis is grounded in Complex Dynamic Systems Theory (CDST), which views language as a non-linear and adaptive system. We analyzed 24 audio recordings of spontaneous speech collected over one year. The study adopted an A-B-A methodological design, with a period of explicit pronunciation instruction between recording sessions 10 and 15. Breakdown fluency was operationalized through measures of silent and filled pauses in both mid-clause and end-of-clause contexts. The results of the Peak Analysis with Monte Carlo Simulations revealed no abrupt changes, which may be attributed to the learner’s high proficiency. However, a Change Point Analysis showed a significant decrease in the duration and quantity of silent end-of-clause pauses. This suggests that even advanced learners continue to develop fluency, and that these changes can occur gradually. The findings also align with previous research indicating that pronunciation instruction may have a positive impact on fluency development.
+:::
+
+## Brazilian Students’ Attitudes Towards Model Varieties of English: Implications for Learner Identity and L2 Pronunciation Development {data-year="2026"}
+
+Ubiratã Alves, Ronaldo Lima Jr. and **Arthur Trein** · In book _(Mis)Understandings in Multicultural Communication_
+
+[<span class="doi-icon"></span> Access](https://doi.org/10.1007/978-3-032-08143-8_7) &nbsp;
+<button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#abstract-alves-limajr-trein-2026" aria-expanded="false" aria-controls="abstract-alves-limajr-trein-2026">Abstract</button>
+
+::: {#abstract-alves-limajr-trein-2026 .collapse}
+Attitudes towards language varieties and their communities often impact non-native speech development. Their influence is especially striking when it comes to the English language, whose global spread and teaching practices have been decisively shaped by native model prescriptions. Considering this scenario, previous studies have investigated learners’ attitudes towards the two most traditional English pronunciation models, General American (GenAm) and Received Pronunciation (RP), revealing meaningful attitudinal tendencies towards these native varieties. To extend this body of work, we asked 37 advanced Brazilian learners of English to complete a language attitude questionnaire and, using a Verbal Guise Technique, we measured their cognitive, affective, and conative evaluations of two North American English and two British English speakers. Scores from 6-point Likert scales for 11 attitudinal traits revealed a tendency for learners to emulate, and greater identify with, GenAm, while ascribing qualities such as intelligence and responsibility to RP. These results offer insights into how learners infer social meaning from linguistic forms and negotiate their identities through L2 speech. They also add to the debate on how language ideologies shape L2 pronunciation learning. The chapter concludes with implications for future research and practice.
+:::
+
+## Accentedness perception ratings in non-native speaker-listener binomials: Analyzing the influence of proficiency {data-year="2024"}
+
+**Arthur Trein**, Ubiratã Alves and Pedro Luchini · In book _Otras Cuestiones del Lenguaje: Traducción y enseñanza de lenguas extranjeras_
+
+[<span class="bi bi-globe"></span> Access](https://www.researchgate.net/publication/381293400_Accentedness_perception_ratings_in_non-native_speaker-listener_binomials_Analyzing_the_influence_of_proficiency7) &nbsp;
+<button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#abstract-trein-alves-luchini-2024" aria-expanded="false" aria-controls="abstract-trein-alves-luchini-2024">Abstract</button>
+
+::: {#abstract-trein-alves-luchini-2024 .collapse}
+Whether or not to focus L2 pronunciation instruction in English on “eradicating” learners’ foreign accent has been the core question of different pedagogical ideologies. However, teachers and learners are still highly influenced by native models of pronunciation. Given this scenario and the importance of understanding more about the nature of the accentedness construct, this paper aims to investigate the influence of both speakers’ and listeners’ characteristics, specifically non-native proficiency, on accentedness perception. To this aim, five Argentinian speakers of English, ranked in terms of pronunciation proficiency from low to high, were assessed by 40 Brazilian learners of English divided into three general proficiency groups. Resulting scores of 9-point Likert scales representing accentedness levels were explored through a mixed-effects model, with ‘speaker’ and ‘listener group’ as predictor variables. The statistical test revealed a significant effect of the ‘speaker’ variable for the most proficient speaker, followed by a marginally significant interaction of the ‘speaker’ and ‘listener group’ variables for the same speaker and the most proficient listener group. Results indicate that accentedness judgements depend on both speakers’ and listeners’ characteristics, and that non native language learners may rely on the similarity with native models for the assessment of their fellow learners’ speech. Some pedagogical implications of this study for the teaching of L2 pronunciation are thoroughly discussed.
+:::
+
+## Comprehensibility ratings in non-native speaker-listener binomials: implications for NNL teaching {data-year="2022"}
+
+**Arthur Trein**, Ubiratã Alves and Pedro Luchini · In book _Perspectivas para o ensino de línguas – Volume 6_
+
+[<span class="bi bi-globe"></span> Access](https://www.researchgate.net/publication/360852192_Comprehensibility_ratings_in_non-native_speaker-listener_binomials_implications_for_NNL_teaching) &nbsp;
+
+
+# Presentations
+
+## Modeling cross-linguistic speech influences over time through Generalized Additive Mixed Models: VOT production in Spanish, English and Brazilian Portuguese [Poster]{.pub-type} {data-year="2026"}
+
+**Arthur Trein**, Felipe Vieira and Ubiratã Alves · 5th International Conference on Language Attrition (ICLA), Porto Alegre, Brazil
+
+[<span class="doi-icon"></span> Access](https://doi.org/10.5281/zenodo.23922642)
+:::
+
+::: {.research-nav}
+:::
+
+::::
+
+<script src="js/research.js"></script>

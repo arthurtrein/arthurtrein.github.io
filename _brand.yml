@@ -1,0 +1,25 @@
+meta:
+  name: Arthur Trein
+
+color:
+  palette:
+    terracotta: "#C1504A"
+    steel-blue: "#3D6FA3"
+  primary: steel-blue
+  link: steel-blue
+  foreground: "#000000"
+
+typography:
+  fonts:
+    - family: Montserrat
+      source: google
+      weight: [300, 400, 500, 700]
+    - family: IBM Plex Sans
+      source: google
+      weight: [300, 400, 700]
+  base:
+    family: IBM Plex Sans
+    size: 1.3rem
+  headings:
+    family: Montserrat
+    weight: 700

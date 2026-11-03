@@ -1,0 +1,189 @@
+.navbar,
+.navbar[data-bs-theme="dark"] {
+  --bs-navbar-color: rgba(255, 255, 255, 0.6);
+  --bs-navbar-hover-color: rgba(255, 255, 255, 0.8);
+  --bs-navbar-active-color: #fff;
+  --bs-navbar-brand-color: #fff;
+  --bs-navbar-brand-hover-color: #fff;
+  background-color: #000 !important;
+}
+
+.navbar #quarto-search.type-overlay .aa-Autocomplete .aa-Form .aa-Label svg,
+.navbar #quarto-search.type-overlay .aa-Autocomplete .aa-Form .aa-LoadingIndicator svg,
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+  color: #fff;
+}
+
+#title-block-header .title {
+  font-size: 2.75rem;
+}
+
+code:not(.sourceCode) {
+  color: #3D6FA3;
+}
+
+a {
+  text-decoration: none;
+}
+
+#quarto-header.headroom--unpinned {
+  transform: translateY(0%);
+}
+
+body:not(.floating) #quarto-content.page-columns:not(.page-layout-full):not(:has(#quarto-margin-sidebar #TOC)) {
+  display: block;
+}
+
+body:not(.floating) #quarto-content:not(.page-layout-full):not(:has(#quarto-margin-sidebar #TOC)) #quarto-document-content {
+  max-width: min(var(--content-width, 1100px), 100% - 3em);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title-block-header .quarto-title-banner.page-columns {
+  display: block;
+}
+
+#title-block-header .quarto-title-banner .quarto-title {
+  --title-offset: 4rem;
+  max-width: 1100px;
+  margin-left: max(1.5em, calc(var(--content-left, 1.5em) - var(--title-offset)));
+  margin-right: 1.5em;
+}
+
+.quarto-listing-category-title,
+.quarto-listing-category .category {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+}
+
+#quarto-margin-sidebar .quarto-listing-category-title {
+  font-size: 0.95rem;
+}
+
+.quarto-listing-category-title {
+  margin-bottom: 0.6rem;
+  font-weight: bold;
+}
+
+.quarto-listing-category .category {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  margin-bottom: 0.2rem;
+  margin-left: 0.5rem;
+  color: #000;
+  font-weight: 300;
+}
+
+.quarto-listing-category .category.active {
+  color: #3D6FA3;
+  font-weight: normal;
+}
+
+.quarto-listing-category .category .quarto-category-count {
+  color: #ced4da;
+}
+
+.quarto-listing-category-title,
+.quarto-listing-category {
+  margin-left: 0;
+}
+
+body:not(.floating) #title-block-header .quarto-title-banner {
+  position: relative;
+}
+
+body:not(.floating) #title-block-header .quarto-title-banner .quarto-title {
+  position: relative;
+}
+
+body:not(.floating) #title-block-header .quarto-title-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  --fade-from: calc(var(--content-left, 1.5em) + 200px);
+  --fade-to: calc(var(--content-left, 1.5em) + 750px);
+  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.28) 0, rgba(0, 0, 0, 0.28) var(--fade-from), #000 var(--fade-to));
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.28) 0, rgba(0, 0, 0, 0.28) var(--fade-from), #000 var(--fade-to));
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 100' preserveAspectRatio='none' fill='none' stroke='white' stroke-width='2' stroke-linecap='round'%3E%3Cpath vector-effect='non-scaling-stroke' stroke-opacity='0.22' d='M0,40 C30,40 45,18 85,24 S140,62 190,50 S280,20 330,38 S400,70 460,50 S540,12 600,30 S680,55 740,34 S840,8 900,20 S970,14 1000,10'/%3E%3Cpath vector-effect='non-scaling-stroke' stroke-width='6' stroke-opacity='0.32' d='M23,40h0M75,30h0M158,50h0M219,44h0M261,31h0M326,37h0M403,61h0M457,49h0M537,31h0M589,25h0M677,57h0M709,46h0M766,29h0M858,17h0M892,12h0M963,17h0'/%3E%3Cpath vector-effect='non-scaling-stroke' stroke-opacity='0.15' d='M0,52 C50,52 70,38 120,44 S190,70 250,60 S340,74 400,66 S470,66 520,44 S600,30 680,34 S800,40 860,28 S960,24 1000,26'/%3E%3Cpath vector-effect='non-scaling-stroke' stroke-width='6' stroke-opacity='0.22' d='M33,52h0M81,44h0M164,49h0M223,65h0M279,55h0M353,76h0M395,61h0M485,53h0M541,32h0M577,45h0M653,33h0M718,33h0M761,32h0M847,22h0M923,18h0M973,32h0'/%3E%3Cpath vector-effect='non-scaling-stroke' stroke-opacity='0.1' d='M0,62 C40,62 70,80 120,74 S200,52 260,62 S330,84 380,78 S450,92 520,84 S640,58 720,64 S830,72 890,52 S960,40 1000,44'/%3E%3Cpath vector-effect='non-scaling-stroke' stroke-width='6' stroke-opacity='0.15' d='M35,56h0M113,78h0M155,67h0M228,57h0M288,78h0M334,78h0M401,76h0M467,84h0M517,86h0M606,72h0M640,66h0M735,71h0M763,60h0M861,63h0M920,46h0M965,36h0'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+:root {
+  --nav-icon-size: 1.45rem;
+}
+
+span.orcid-icon,
+span.lattes-icon,
+span.researchgate-icon,
+span.zenodo-icon {
+  display: inline-block;
+  width: var(--nav-icon-size);
+  height: var(--nav-icon-size);
+  vertical-align: middle;
+  background-color: currentColor;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+span.orcid-icon {
+  -webkit-mask-image: url("../images/icons/orcid-icon.svg");
+  mask-image: url("../images/icons/orcid-icon.svg");
+}
+
+span.lattes-icon {
+  -webkit-mask-image: url("../images/icons/lattes-icon.png");
+  mask-image: url("../images/icons/lattes-icon.png");
+}
+
+span.researchgate-icon {
+  -webkit-mask-image: url("../images/icons/researchgate-icon.svg");
+  mask-image: url("../images/icons/researchgate-icon.svg");
+}
+
+span.zenodo-icon {
+  -webkit-mask-image: url("../images/icons/zenodo-icon.svg");
+  mask-image: url("../images/icons/zenodo-icon.svg");
+}
+
+.navbar a.nav-link[href^="https://orcid.org"],
+.navbar a.nav-link[href^="https://lattes.cnpq.br"],
+.navbar a.nav-link[href^="https://www.researchgate.net"],
+.navbar a.nav-link[href^="https://zenodo.org"],
+.navbar a.nav-link[href^="mailto:"] {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a.nav-link[href^="https://orcid.org"] .menu-text,
+.navbar a.nav-link[href^="https://lattes.cnpq.br"] .menu-text,
+.navbar a.nav-link[href^="https://www.researchgate.net"] .menu-text,
+.navbar a.nav-link[href^="https://zenodo.org"] .menu-text {
+  display: flex;
+}
+
+.navbar a.nav-link .bi-envelope-fill {
+  display: flex;
+  font-size: calc(var(--nav-icon-size) * 1.1);
+  line-height: 1;
+}
+
+.navbar a.nav-link .bi-envelope-fill::before {
+  vertical-align: 0;
+  position: relative;
+  top: -1px;
+}
+
+.navbar #quarto-search {
+  position: relative;
+  top: -0.15rem;
+}
+
