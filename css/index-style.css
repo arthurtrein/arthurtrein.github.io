@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Charis+SIL:wght@400&display=swap");
+
+#quarto-document-content {
+  font-size: 1.3rem;
+}
+
+.about {
+  --photo-size: 260px;
+  display: grid;
+  grid-template-columns: var(--photo-size) 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.about-sidebar {
+  text-align: center;
+}
+
+.about-sidebar p {
+  margin: 0;
+}
+
+.about-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1.25rem;
+}
+
+.about-name {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.about-tagline {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+.about-links,
+.about-links > p {
+  --nav-icon-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about-links {
+  margin-top: 1rem;
+}
+
+.about-links a {
+  display: flex;
+  color: #3D6FA3;
+}
+
+.about-links a:hover {
+  color: #2c5379;
+}
+
+.about-email {
+  display: block;
+  margin-top: 0.6rem;
+  font-size: 1.1rem;
+}
+
+.ipa {
+  font-family: "Charis SIL", "Doulos SIL", serif;
+}
+
+@media (max-width: 767.98px) {
+  .about {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .about-photo {
+    max-width: 200px;
+  }
+}
+
+#title-block-header .quarto-title-banner .quarto-title {
+  --title-offset: 0rem;
+}

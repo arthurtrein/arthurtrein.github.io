@@ -1,0 +1,215 @@
+:root {
+  --list-width: 780px;
+}
+
+#quarto-document-content .research-intro {
+  margin-bottom: 4rem;
+  font-size: 1.3rem;
+}
+
+#quarto-document-content .research-layout {
+  display: grid;
+  grid-template-columns: minmax(0, var(--list-width)) minmax(0, 1fr);
+  column-gap: 2.5rem;
+  align-items: start;
+}
+
+#quarto-document-content .research-list > section.level1:first-of-type > h1 {
+  margin-top: 0;
+}
+
+#quarto-document-content .research-nav {
+  position: sticky;
+  top: calc(var(--header-height, 4.5rem) + 1.5rem);
+  transition: top 200ms linear;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+}
+
+body:has(#quarto-header.headroom--unpinned) #quarto-document-content .research-nav {
+  top: 1.5rem;
+}
+
+#quarto-document-content .research-nav .nav-title {
+  margin-bottom: 0.6rem;
+  font-weight: bold;
+}
+
+#quarto-document-content .research-nav .nav-item {
+  display: block;
+  padding: 0.1rem 0;
+  margin: 0 0 0.2rem 0.5rem;
+  color: #000;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+#quarto-document-content .research-nav .nav-item:hover,
+#quarto-document-content .research-nav .nav-item.active {
+  color: #3D6FA3;
+}
+
+#quarto-document-content .research-nav .nav-item.active {
+  font-weight: normal;
+}
+
+#quarto-document-content .research-nav .nav-count {
+  color: #ced4da;
+}
+
+@media (max-width: 767.98px) {
+  #quarto-document-content .research-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  #quarto-document-content .research-nav {
+    position: static;
+    order: -1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 0.9rem;
+    margin-bottom: 2rem;
+  }
+
+  #quarto-document-content .research-nav .nav-title,
+  #quarto-document-content .research-nav .nav-item {
+    margin: 0;
+  }
+}
+
+#quarto-document-content {
+  font-size: 1.025rem;
+}
+
+#quarto-document-content .btn-sm {
+  --bs-btn-font-size: 0.875rem;
+}
+
+span.osf-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  -webkit-mask: url("../images/icons/osf-icon.svg") center / contain no-repeat;
+  mask: url("../images/icons/osf-icon.svg") center / contain no-repeat;
+}
+
+span.doi-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  -webkit-mask: url("../images/icons/doi-icon.svg") center / contain no-repeat;
+  mask: url("../images/icons/doi-icon.svg") center / contain no-repeat;
+}
+
+#quarto-document-content section.level1 {
+  scroll-margin-top: 5rem;
+}
+
+#quarto-document-content section.level2 {
+  margin-left: 4rem;
+  position: relative;
+}
+
+#quarto-document-content section.level2 > h2.year-repeat[data-year]::before {
+  content: none;
+}
+
+#quarto-document-content section.level2 > h2[data-year]::before {
+  content: attr(data-year);
+  position: absolute;
+  left: -4rem;
+  width: 3.25rem;
+  padding-right: 0.75rem;
+  text-align: right;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #6c757d;
+}
+
+#quarto-document-content div.collapse,
+#quarto-document-content div.collapsing {
+  text-align: justify;
+  font-weight: 200;
+}
+
+#quarto-document-content div.collapsing {
+  transition: none;
+}
+
+#quarto-document-content button[data-bs-toggle="collapse"] {
+  color: #3D6FA3;
+  border-color: #3D6FA3;
+}
+
+#quarto-document-content button[data-bs-toggle="collapse"]:hover,
+#quarto-document-content button[data-bs-toggle="collapse"]:active,
+#quarto-document-content button[data-bs-toggle="collapse"][aria-expanded="true"] {
+  color: #fff;
+  background-color: #3D6FA3;
+  border-color: #3D6FA3;
+}
+
+#quarto-document-content h2 {
+  border-bottom: none;
+  padding-bottom: 0;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+#quarto-document-content h2 .pub-type {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.15em 0.55em;
+  vertical-align: 0.15em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.3;
+  white-space: nowrap;
+  color: #3D6FA3;
+  border: 1px solid #3D6FA3;
+  border-radius: 999px;
+}
+
+#quarto-document-content h1 {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 0.5rem;
+  font-size: 1.6rem;
+}
+
+#toc-title,
+#TOC a.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+}
+
+#toc-title {
+  margin-bottom: 0.6rem;
+  font-weight: bold;
+}
+
+#TOC a.nav-link {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0;
+  color: #6c757d;
+  font-weight: 300;
+}
+
+#TOC a.nav-link.active {
+  color: #000;
+  font-weight: normal;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}

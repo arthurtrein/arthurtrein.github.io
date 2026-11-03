@@ -1,0 +1,23 @@
+:root {
+  --content-width: 1000px;
+}
+
+#quarto-document-content {
+  max-width: var(--content-width);
+}
+
+@media (min-width: 992px) {
+
+  #quarto-content.page-columns {
+    grid-template-columns:
+      [screen-start] 1.5em [screen-start-inset] 5fr [page-start page-start-inset] 49px
+      [body-start-outset] minmax(49px, 166px) [body-start] 1.5em
+      [body-content-start] minmax(500px, var(--content-width)) [body-content-end]
+      1.5em [body-end] 35px [body-end-outset] minmax(75px, 145px)
+      [page-end-inset] 35px [page-end] 5fr [screen-end-inset] 1.5em [screen-end];
+  }
+
+  #quarto-content.page-columns main.column-page-left {
+    grid-column: body-content-start / body-content-end;
+  }
+}
