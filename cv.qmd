@@ -11,7 +11,7 @@ css:
 ---
 
 ::: {.cv-header}
-<span class="cv-updated">CV last updated: October 14, 2026</span>
+<span class="cv-updated">CV last updated: November 3, 2026</span>
 
 <a href="cv.pdf" class="btn btn-primary btn-sm cv-download" download><i class="bi bi-file-earmark-pdf"></i> Download current CV</a>
 :::

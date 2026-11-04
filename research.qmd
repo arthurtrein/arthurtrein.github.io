@@ -55,7 +55,7 @@ In Complex Dynamic Systems Theory (CDST), intra-individual variability plays a f
 
 Ubiratã Alves, Pollianna Milan, **Arthur Trein**, Cíntia Raquel de Moraes, Felipe Vieira and Laryssa Alves · In book _Cuestiones del lenguaje en contextos académicos y profesionales: enseñanza y traducción_
 
-[<span class="bi bi-globe"></span> Access](https://humadoc.mdp.edu.ar/s/repositorio-institucional-humadoc/item/3389) &nbsp;
+[<span class="bi bi-globe"></span> Access](https://www.researchgate.net/publication/417366161_Development_of_speech_fluency_in_an_additional_language_Analysis_of_breakdown_rates_in_the_speech_of_an_Argentine_learner_of_Brazilian_Portuguese) &nbsp;
 <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#abstract-alves-milan-trein-moraes-vieira-alves-2026" aria-expanded="false" aria-controls="abstract-alves-milan-trein-moraes-vieira-alves-2026">Abstract</button>
 
 ::: {#abstract-alves-milan-trein-moraes-vieira-alves-2026 .collapse}
